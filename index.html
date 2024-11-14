@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Hotel</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--CONTEINER-->
+    <div class="conteiner">
+        <!--IMAGEM-->
+            <img src= "imagens/img hotel.jpg" alt="hotel">
+
+         <!--FORMULÁRIO-->
+        <form action="#" class="form">
+            <h1>Reserve seu Quarto</h1>
+
+            <label for="nome"></label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+                
+            <label for="tel"></label>
+            <input type="tel" name="tel" id="tel" placeholder="Celular">
+                
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+                
+            <label for="data"></label>
+            <input type="date" name="data" id="data">
+                
+            <label for="hora"></label>
+            <select name="hora">
+                <option value="">Horário</option>
+                <option value="9h:30">9h:30</option>
+                <option value="10h:30">10h:30</option>
+                <option value="12h">12h</option>
+                <option value="15h">15h</option>
+            </select>
+
+            <button class="btn">Reservar</button>
+        </form>
+    </div>
+</body>
+</html>
